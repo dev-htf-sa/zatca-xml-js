@@ -9,7 +9,8 @@
   "scripts": {
     "start": "lib/index.js",
     "test": "tsc && node testing_lib/tests/test.js",
-    "example": "tsc --project tsconfig.build.json && node lib/examples/full.js"
+    "example": "tsc --project tsconfig.build.json && node lib/examples/full.js",
+    "prepare": ""
   },
   "devDependencies": {
     "@types/lodash": "^4.14.184",
