@@ -20,10 +20,6 @@
     "xmldsigjs": "^2.5.0",
     "zatca-xml-js": "file:"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://htf-sa@bitbucket.org/htf-sa/zatca-xml-js.git"
-  },
   "keywords": [
     "zatca",
     "xml",
