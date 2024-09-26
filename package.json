@@ -1,0 +1,40 @@
+{
+  "name": "zatca-xml-js",
+  "version": "0.1.9",
+  "description": "An implementation of Saudi Arabia ZATCA's E-Invoicing requirements, processes, and standards.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "dependencies": {
+    "@fidm/x509": "^1.2.1",
+    "axios": "^0.27.2",
+    "fast-xml-parser": "^4.0.9",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.0",
+    "xmldom": "^0.6.0",
+    "xmldsigjs": "^2.5.0",
+    "zatca-xml-js": "file:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://htf-sa@bitbucket.org/htf-sa/zatca-xml-js.git"
+  },
+  "keywords": [
+    "zatca",
+    "xml",
+    "signing",
+    "on-boarding",
+    "EGS",
+    "invoice",
+    "tax",
+    "simplified",
+    "api",
+    "saudi-arabia",
+    "phase 1",
+    "phase 2"
+  ],
+  "author": "HTF",
+  "license": "MIT"
+}
