@@ -1,2 +1,0 @@
-export default function populate(invoice_hash: string, signed_properties_hash: string, digital_signature: string, certificate_string: string, signed_properties_xml: string): string;
-//# sourceMappingURL=ubl_sign_extension_template.d.ts.map
