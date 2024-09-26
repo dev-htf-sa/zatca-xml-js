@@ -22,7 +22,6 @@
     "phase 2"
   ],
   "author": "HTF",
-  "license": "MIT",
   "dependencies": {
     "zatca-xml-js": "file:"
   }
