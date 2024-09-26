@@ -12,10 +12,6 @@
   "dependencies": {
     "zatca-xml-js": "file:"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dev-htf-sa/zatca-xml-js.git"
-  },
   "keywords": [
     "zatca",
     "xml",
