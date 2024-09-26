@@ -7,10 +7,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
-    "test": "tsc && node testing_lib/tests/test.js",
-    "example": "tsc --project tsconfig.build.json && node lib/examples/full.js",
-    "prepare": "npm run build"
+    "build": ""
   },
   "dependencies": {
     "@fidm/x509": "^1.2.1",
