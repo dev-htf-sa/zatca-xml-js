@@ -7,7 +7,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "if [ -z $SKIP_BUILD ]; then tsc --project tsconfig.build.json; fi",
+    "start": "lib/index.js",
     "test": "tsc && node testing_lib/tests/test.js",
     "example": "tsc --project tsconfig.build.json && node lib/examples/full.js",
     "prepare": "npm run build"
