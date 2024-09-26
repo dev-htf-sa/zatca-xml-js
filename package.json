@@ -4,10 +4,8 @@
   "description": "An implementation of Saudi Arabia ZATCA's E-Invoicing requirements, processes, and standards.",
   "main": "lib/index.js",
   "scripts": {
-    "prepare": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
-  },
-  "dependencies": {
-    "zatca-xml-js": "file:"
+    "build": "",
+    "prepare": "npm run build"
   },
   "keywords": [
     "zatca",
@@ -24,5 +22,8 @@
     "phase 2"
   ],
   "author": "HTF",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "zatca-xml-js": "file:"
+  }
 }
