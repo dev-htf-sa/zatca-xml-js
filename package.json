@@ -10,7 +10,7 @@
     "start": "lib/index.js",
     "test": "tsc && node testing_lib/tests/test.js",
     "example": "tsc --project tsconfig.build.json && node lib/examples/full.js",
-    "prepare": "npm run build"
+    "prepare": "npm run start"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.184",
