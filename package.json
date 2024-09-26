@@ -10,14 +10,6 @@
     "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
   },
   "dependencies": {
-    "@fidm/x509": "^1.2.1",
-    "axios": "^0.27.2",
-    "fast-xml-parser": "^4.0.9",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4",
-    "uuid": "^9.0.0",
-    "xmldom": "^0.6.0",
-    "xmldsigjs": "^2.5.0",
     "zatca-xml-js": "file:"
   },
   "keywords": [
